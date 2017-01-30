@@ -6,8 +6,9 @@ set -e
 apk --update add python py-requests py-setuptools git gcc py-pip musl-dev libffi-dev python-dev openssl-dev
 
 # Get Let's Encrypt simp_le client source
+branch="acme-0.8"
 mkdir -p /src
-git -C /src clone https://github.com/kuba/simp_le.git
+git -C /src clone --depth=1 -b $branch https://github.com/kuba/simp_le.git
 
 # Install simp_le in /usr/bin
 cd /src/simp_le
