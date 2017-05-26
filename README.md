@@ -1,7 +1,7 @@
 # ATTENTION - ABANDONED
 This fork of the jrcs/nginx-letsencrypt-companion for Rancher is abandoned cause we created a new project especially for use with Rancher.
-Here you can follow the rgon-proxy project: https://github.com/CausticLab/rgon-proxy
-Here you can get the catalog entry: https://github.com/CausticLab/rancher-catalog
+- Here you can follow the rgon-proxy project: https://github.com/CausticLab/rgon-proxy
+- Here you can get the catalog entry: https://github.com/CausticLab/rancher-catalog
 
 
 
